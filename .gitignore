@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Local database and configs
+directory_monitor.db
+monitor_config.json
+*.json
+!requirements.txt
+
+# Reports
+monitor-report-*.json
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ollama models (don't commit large models)
+*.gguf
+
+# Logs
+*.log
