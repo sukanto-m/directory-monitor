@@ -33,12 +33,12 @@
 ### Terminal UI
 > Beautiful, interactive terminal interface with live metrics
 
-![Terminal UI Demo](screenshot-tui.png)
+![Terminal UI Demo](screenshots/screenshot-tui.png)
 
 ### Web UI
 > Clean, modern web interface at http://localhost:5000
 
-![Web UI Demo](screenshot-web.png)
+![Web UI Demo](screenshots/screenshot-web.png)
 
 **Example Analysis:**
 ```

@@ -18,7 +18,6 @@ monitor_config.json
 
 # Reports
 monitor-report-*.json
-*.png
 
 # IDE
 .vscode/
