@@ -56,7 +56,7 @@ class LocalDatabase:
     
     def __init__(self, db_path: str = "./directory_monitor.db"):
         self.db_path = db_path
-        self.conn = sqlite3.connect(db_path)
+        self.conn = sqlite3.connect(db_path, check_same_thread=False)
         self._init_schema()
     
     def _init_schema(self):
